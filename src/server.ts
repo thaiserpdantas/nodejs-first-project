@@ -3,7 +3,7 @@ import express from 'express'
 const app = express();
 
 app.get('/', (request, response) => {
-    return response.json({ message: 'Hello World' })
+    return response.json({ message: 'Hello Node' })
 })
 
 const port = 3333;
