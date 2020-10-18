@@ -6,5 +6,12 @@
     "port": 5432,
     "username": "postgres",
     "password": "postgres",
-    "database": "gostack_gobarber"
+    "database": "gostack_gobarber",
+    "migratrions": [
+        "./src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "./src/database/migrations/"
+    }
+}
 }
