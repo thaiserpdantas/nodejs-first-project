@@ -7,11 +7,11 @@
     "username": "postgres",
     "password": "postgres",
     "database": "gostack_gobarber",
-    "migratrions": [
+    "migrations": [
         "./src/database/migrations/*.ts"
     ],
     "cli": {
-        "migrationsDir": "./src/database/migrations/"
+        "migrationsDir": "./src/database/migrations"
     }
 }
 }
