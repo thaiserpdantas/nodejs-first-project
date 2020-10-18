@@ -1,0 +1,10 @@
+# create file ormconfig.json like this example
+
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "postgres",
+    "database": "gostack_gobarber"
+}
